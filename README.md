@@ -1,5 +1,6 @@
 # Game-and-Projs
 This repo is used to store my games and other projects
+To watch demo video online, please access google drive : https://drive.google.com/drive/folders/1KY9UhyfkjJwl8SQk2u9oriSN_HkuSYfx?usp=drive_link 
 
 ## 「Windowsill」
 　Unityを用いた開発中のSLGプロジェクトです。現在では一回目のイテレーションにおいて、ゲームの基盤システムを構築する段階にあります。
