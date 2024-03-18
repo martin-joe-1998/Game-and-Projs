@@ -9,4 +9,7 @@ To watch demo video online, please access google drive : https://drive.google.co
 　このゲームは、窓のない部屋に様々な景色と共に彩りを添え、活力をもたらすことを目的として開発されています。
 
 ## 「Shader project」
-Shader制作を学ぶ過程において制作された各種のShaderです。
+　Shader制作を学ぶ過程において制作された各種のShaderです。
+
+## 「On-campus research」
+　大学の卒業研究「色恒常性ネットワークにおけるマスク画像の高精度化」と、大学院で現在行っている研究「画像セグメンテーションに基づいた多光源の照明方向推定の手法」に関する資料です。
