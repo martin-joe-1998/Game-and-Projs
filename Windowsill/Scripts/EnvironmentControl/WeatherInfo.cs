@@ -7,25 +7,36 @@ using System;
 // get current weather from OpenWeatherAPI
 public class WeatherInfo : MonoBehaviour
 {
+    public GetIPAddress getIP;
+
+    // API key of personal account!!
     private string apiKey = "9c79b2e114616ac9fb29e368198e587c";
     // API to get weather info
     private string apiUrl = "https://api.openweathermap.org/data/2.5/weather";
 
     // A certain position for testing. Will use GPS in the future 
-    private float lat = 35.627578f;
-    private float lon = 140.104024f;
+    private float lat;
+    private float lon;
 
     WeatherData weatherData;
 
     void Start()
     {
-        // Construct a complete API url
-        string url = $"{apiUrl}?lat={lat}&lon={lon}&appid={apiKey}";
+        // GetLocationInfo() will be executed at Awake() in getIP
+        while (getIP.GetLocationInfo() != (0, 0)) {
+            // Get lat and lon info from GetIPAddress.cs
+            (lat, lon) = getIP.GetLocationInfo();
 
-        // Send API request
-        StartCoroutine(GetWeatherData(url));
+            // Construct a complete API url
+            string url = $"{apiUrl}?lat={lat}&lon={lon}&appid={apiKey}";
+
+            // Send API request
+            StartCoroutine(GetWeatherData(url));
+            break;
+        }
     }
 
+    // Send request to get weather info from url
     IEnumerator GetWeatherData(string url)
     {
         // Send Get request
@@ -42,14 +53,13 @@ public class WeatherInfo : MonoBehaviour
                 weatherData = JsonUtility.FromJson<WeatherData>(jsonResult);
 
                 // Show Weather Data
-                //DisplayWeather(weatherData);
+                DisplayWeather(weatherData);
             }
         }
     }
 
     void DisplayWeather(WeatherData weatherData)
     {
-        // 在这里你可以从WeatherData对象中提取所需的天气信息并以文字形式显示在游戏中
         Debug.Log("Weather ID: " + weatherData.weather[0].id);
         Debug.Log("Current Weather： " + weatherData.weather[0].description);
         Debug.Log("Current Temperature： " + weatherData.main.temp);
@@ -59,7 +69,7 @@ public class WeatherInfo : MonoBehaviour
     public bool IsWeatherDataNull() { return weatherData == null; }
 }
 
-// 天气数据模型（根据OpenWeatherMap的API响应格式定义）
+// Data structure for weather info (based on OpenWeather API document)
 [Serializable]
 public class WeatherData {
     public Weather[] weather;
