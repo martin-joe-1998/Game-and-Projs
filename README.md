@@ -10,7 +10,14 @@ To watch demo video online, please access google drive : https://drive.google.co
 　このゲームは、窓のない部屋に様々な景色と共に彩りを添え、活力をもたらすことを目的として開発されています。
 
 --update--   
-　-0.1.2 天気システムを更新。18パターンの天気アイコンを表示できるようにしました。
+　-0.1.2
+ 
+　　・天気システムを更新：18パターンの天気アイコンを表示できるようにしました。ユーザーのIP Addressによる位置情報取得をするAPIを利用するように更新。
+  
+　　・バグ修正：不正確な陰影表示を修正
+
+ 　　・一部のモデル追加
+  ![屏幕截图(121)](https://github.com/martin-joe-1998/Game-and-Projs/assets/149871657/e0a4201b-0864-4aba-8628-31eb95299b2a)
 
 ## 「Shader project」
 　Shader制作を学ぶ過程において制作された各種のShaderです。
