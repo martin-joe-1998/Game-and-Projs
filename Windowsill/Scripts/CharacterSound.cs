@@ -23,7 +23,7 @@ public class CharacterSound : MonoBehaviour
             float normalizedTimeOne_Walk = Mathf.Abs(normalizedDecimal - 0.3f);
             float normalizedTimeTwo_Walk = Mathf.Abs(normalizedDecimal - 0.8f);
 
-            Debug.Log(normalizedDecimal);
+            //Debug.Log(normalizedDecimal);
             if (normalizedTimeOne_Walk < epsilon || normalizedTimeTwo_Walk < epsilon) {
                 float volume = 1f;
                 SoundManager.Instance.PlayFootstepsSound(gameObject.transform.position, volume);

@@ -53,7 +53,7 @@ public class WeatherInfo : MonoBehaviour
                 weatherData = JsonUtility.FromJson<WeatherData>(jsonResult);
 
                 // Show Weather Data
-                DisplayWeather(weatherData);
+                //DisplayWeather(weatherData);
             }
         }
     }
@@ -66,6 +66,14 @@ public class WeatherInfo : MonoBehaviour
     }
 
     public WeatherData GetWeatherData() { return weatherData; }
+    public string GetWeatherID() 
+    { 
+        if (weatherData == null) {
+            return "";
+        } else {
+            return weatherData.weather[0].id; 
+        }
+    }
     public bool IsWeatherDataNull() { return weatherData == null; }
 }
 
