@@ -17,6 +17,7 @@ To watch demo video online, please access google drive : https://drive.google.co
 　　・バグ修正：不正確な陰影表示を修正
 
  　　・一部のモデル追加
+   
   ![屏幕截图(121)](https://github.com/martin-joe-1998/Game-and-Projs/assets/149871657/e0a4201b-0864-4aba-8628-31eb95299b2a)
 
 ## 「Shader project」
