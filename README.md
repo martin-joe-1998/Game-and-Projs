@@ -26,5 +26,5 @@ To watch demo video online, please access google drive : https://drive.google.co
 ## 「On-campus research」
 　大学の卒業研究「色恒常性ネットワークにおけるマスク画像の高精度化」と、大学院で現在行っている研究「画像セグメンテーションに基づいた多光源の照明方向推定の手法」に関する資料です。
 
-##　「Code playground」
+## 「Code playground」
 　ゲーム以外の各種なコードプロジェクト
