@@ -10,7 +10,7 @@ To watch demo video online, please access google drive : https://drive.google.co
 　このゲームは、窓のない部屋に様々な景色と共に彩りを添え、活力をもたらすことを目的として開発されています。
 
 --update--   
-　-0.1.2
+　-0.1.2α
  
 　　・天気システムを更新：18パターンの天気アイコンを表示できるようにしました。ユーザーのIP Addressによる位置情報取得をするAPIを利用するように更新。
   
@@ -25,3 +25,6 @@ To watch demo video online, please access google drive : https://drive.google.co
 
 ## 「On-campus research」
 　大学の卒業研究「色恒常性ネットワークにおけるマスク画像の高精度化」と、大学院で現在行っている研究「画像セグメンテーションに基づいた多光源の照明方向推定の手法」に関する資料です。
+
+## 「Code playground」
+　ゲーム以外の各種なコードプロジェクト
