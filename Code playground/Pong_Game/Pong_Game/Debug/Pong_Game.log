@@ -1,0 +1,17 @@
+﻿  win32_platform.cpp
+E:\program\C++\Game\Pong_Game\Pong_Game\renderer.cpp(40,9): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'win32_platform.cpp')
+  
+E:\program\C++\Game\Pong_Game\Pong_Game\renderer.cpp(41,9): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'win32_platform.cpp')
+  
+E:\program\C++\Game\Pong_Game\Pong_Game\renderer.cpp(42,9): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'win32_platform.cpp')
+  
+E:\program\C++\Game\Pong_Game\Pong_Game\renderer.cpp(43,9): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'win32_platform.cpp')
+  
+E:\program\C++\Game\Pong_Game\Pong_Game\game.cpp(22,2): error C2065: 'player_dpp': undeclared identifier
+  (compiling source file 'win32_platform.cpp')
+  
+E:\program\C++\Game\Pong_Game\Pong_Game\win32_platform.cpp(56,5): warning C4007: 'WinMain': must be '__stdcall'

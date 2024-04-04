@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\program\\C\u002B\u002B\\Game\\Pong_Game\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{63C74B70-C9ED-4FBE-8C11-47E30CD266EA}|Pong_Game\\Pong_Game.vcxproj|E:\\program\\C\u002B\u002B\\Game\\Pong_Game\\Pong_Game\\game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{63C74B70-C9ED-4FBE-8C11-47E30CD266EA}|Pong_Game\\Pong_Game.vcxproj|solutionrelative:Pong_Game\\game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63C74B70-C9ED-4FBE-8C11-47E30CD266EA}|Pong_Game\\Pong_Game.vcxproj|E:\\program\\C\u002B\u002B\\Game\\Pong_Game\\Pong_Game\\renderer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{63C74B70-C9ED-4FBE-8C11-47E30CD266EA}|Pong_Game\\Pong_Game.vcxproj|solutionrelative:Pong_Game\\renderer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63C74B70-C9ED-4FBE-8C11-47E30CD266EA}|Pong_Game\\Pong_Game.vcxproj|E:\\program\\C\u002B\u002B\\Game\\Pong_Game\\Pong_Game\\win32_platform.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{63C74B70-C9ED-4FBE-8C11-47E30CD266EA}|Pong_Game\\Pong_Game.vcxproj|solutionrelative:Pong_Game\\win32_platform.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63C74B70-C9ED-4FBE-8C11-47E30CD266EA}|Pong_Game\\Pong_Game.vcxproj|E:\\program\\C\u002B\u002B\\Game\\Pong_Game\\Pong_Game\\platform_common.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{63C74B70-C9ED-4FBE-8C11-47E30CD266EA}|Pong_Game\\Pong_Game.vcxproj|solutionrelative:Pong_Game\\platform_common.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63C74B70-C9ED-4FBE-8C11-47E30CD266EA}|Pong_Game\\Pong_Game.vcxproj|E:\\program\\C\u002B\u002B\\Game\\Pong_Game\\Pong_Game\\utils.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{63C74B70-C9ED-4FBE-8C11-47E30CD266EA}|Pong_Game\\Pong_Game.vcxproj|solutionrelative:Pong_Game\\utils.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "renderer.cpp",
+              "DocumentMoniker": "E:\\program\\C\u002B\u002B\\Game\\Pong_Game\\Pong_Game\\renderer.cpp",
+              "RelativeDocumentMoniker": "Pong_Game\\renderer.cpp",
+              "ToolTip": "E:\\program\\C\u002B\u002B\\Game\\Pong_Game\\Pong_Game\\renderer.cpp",
+              "RelativeToolTip": "Pong_Game\\renderer.cpp",
+              "ViewState": "AQIAACIAAAAAAAAAAAAAADEAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-04T09:19:34.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "game.cpp",
+              "DocumentMoniker": "E:\\program\\C\u002B\u002B\\Game\\Pong_Game\\Pong_Game\\game.cpp",
+              "RelativeDocumentMoniker": "Pong_Game\\game.cpp",
+              "ToolTip": "E:\\program\\C\u002B\u002B\\Game\\Pong_Game\\Pong_Game\\game.cpp",
+              "RelativeToolTip": "Pong_Game\\game.cpp",
+              "ViewState": "AQIAACMAAAAAAAAAAAAwwDgAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-18T15:14:50.523Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "platform_common.cpp",
+              "DocumentMoniker": "E:\\program\\C\u002B\u002B\\Game\\Pong_Game\\Pong_Game\\platform_common.cpp",
+              "RelativeDocumentMoniker": "Pong_Game\\platform_common.cpp",
+              "ToolTip": "E:\\program\\C\u002B\u002B\\Game\\Pong_Game\\Pong_Game\\platform_common.cpp",
+              "RelativeToolTip": "Pong_Game\\platform_common.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-17T12:04:50.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "utils.cpp",
+              "DocumentMoniker": "E:\\program\\C\u002B\u002B\\Game\\Pong_Game\\Pong_Game\\utils.cpp",
+              "RelativeDocumentMoniker": "Pong_Game\\utils.cpp",
+              "ToolTip": "E:\\program\\C\u002B\u002B\\Game\\Pong_Game\\Pong_Game\\utils.cpp",
+              "RelativeToolTip": "Pong_Game\\utils.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-17T10:59:03.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "win32_platform.cpp",
+              "DocumentMoniker": "E:\\program\\C\u002B\u002B\\Game\\Pong_Game\\Pong_Game\\win32_platform.cpp",
+              "RelativeDocumentMoniker": "Pong_Game\\win32_platform.cpp",
+              "ToolTip": "E:\\program\\C\u002B\u002B\\Game\\Pong_Game\\Pong_Game\\win32_platform.cpp",
+              "RelativeToolTip": "Pong_Game\\win32_platform.cpp",
+              "ViewState": "AQIAAGAAAAAAAAAAAAAAAHEAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-17T08:05:01.154Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
