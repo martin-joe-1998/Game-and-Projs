@@ -1,0 +1,151 @@
+﻿  game.cpp
+E:\program\C++\Game\Pong_Game\Pong_Game\game.cpp(14,10): error C2144: syntax error: 'void' should be preceded by ';'
+E:\program\C++\Game\Pong_Game\Pong_Game\game.cpp(14,15): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+E:\program\C++\Game\Pong_Game\Pong_Game\game.cpp(33,10): error C2144: syntax error: 'bool' should be preceded by ';'
+E:\program\C++\Game\Pong_Game\Pong_Game\game.cpp(33,15): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+E:\program\C++\Game\Pong_Game\Pong_Game\game.cpp(33,1): error C2086: 'int internal': redefinition
+  E:\program\C++\Game\Pong_Game\Pong_Game\game.cpp(14,1):
+  see declaration of 'internal'
+  
+E:\program\C++\Game\Pong_Game\Pong_Game\game.cpp(51,10): error C2144: syntax error: 'void' should be preceded by ';'
+E:\program\C++\Game\Pong_Game\Pong_Game\game.cpp(51,15): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+E:\program\C++\Game\Pong_Game\Pong_Game\game.cpp(51,1): error C2086: 'int internal': redefinition
+  E:\program\C++\Game\Pong_Game\Pong_Game\game.cpp(14,1):
+  see declaration of 'internal'
+  
+E:\program\C++\Game\Pong_Game\Pong_Game\game.cpp(51,15): error C2182: 'simulate_game': this use of 'void' is not valid
+E:\program\C++\Game\Pong_Game\Pong_Game\game.cpp(51,29): error C2065: 'Input': undeclared identifier
+E:\program\C++\Game\Pong_Game\Pong_Game\game.cpp(51,36): error C2065: 'input': undeclared identifier
+E:\program\C++\Game\Pong_Game\Pong_Game\game.cpp(51,43): error C2062: type 'float' unexpected
+E:\program\C++\Game\Pong_Game\Pong_Game\game.cpp(52,1): error C2143: syntax error: missing ';' before '{'
+E:\program\C++\Game\Pong_Game\Pong_Game\game.cpp(52,1): error C2447: '{': missing function header (old-style formal list?)
+  platform_common.cpp
+  renderer.cpp
+E:\program\C++\Game\Pong_Game\Pong_Game\renderer.cpp(1,10): error C2144: syntax error: 'void' should be preceded by ';'
+E:\program\C++\Game\Pong_Game\Pong_Game\renderer.cpp(1,15): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+E:\program\C++\Game\Pong_Game\Pong_Game\renderer.cpp(1,15): error C2182: 'clear_screen': this use of 'void' is not valid
+E:\program\C++\Game\Pong_Game\Pong_Game\renderer.cpp(1,28): error C2065: 'u32': undeclared identifier
+E:\program\C++\Game\Pong_Game\Pong_Game\renderer.cpp(1,32): error C2146: syntax error: missing ')' before identifier 'color'
+E:\program\C++\Game\Pong_Game\Pong_Game\renderer.cpp(2,1): error C2143: syntax error: missing ';' before '{'
+E:\program\C++\Game\Pong_Game\Pong_Game\renderer.cpp(2,1): error C2447: '{': missing function header (old-style formal list?)
+E:\program\C++\Game\Pong_Game\Pong_Game\renderer.cpp(11,10): error C2144: syntax error: 'void' should be preceded by ';'
+E:\program\C++\Game\Pong_Game\Pong_Game\renderer.cpp(11,15): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+E:\program\C++\Game\Pong_Game\Pong_Game\renderer.cpp(11,1): error C2086: 'int internal': redefinition
+  E:\program\C++\Game\Pong_Game\Pong_Game\renderer.cpp(1,1):
+  see declaration of 'internal'
+  
+E:\program\C++\Game\Pong_Game\Pong_Game\renderer.cpp(11,67): error C2061: syntax error: identifier 'u32'
+E:\program\C++\Game\Pong_Game\Pong_Game\renderer.cpp(13,20): error C2065: 'render_state': undeclared identifier
+E:\program\C++\Game\Pong_Game\Pong_Game\renderer.cpp(13,7): error C3861: 'clamp': identifier not found
+E:\program\C++\Game\Pong_Game\Pong_Game\renderer.cpp(14,20): error C2065: 'render_state': undeclared identifier
+E:\program\C++\Game\Pong_Game\Pong_Game\renderer.cpp(14,7): error C3861: 'clamp': identifier not found
+E:\program\C++\Game\Pong_Game\Pong_Game\renderer.cpp(15,20): error C2065: 'render_state': undeclared identifier
+E:\program\C++\Game\Pong_Game\Pong_Game\renderer.cpp(15,7): error C3861: 'clamp': identifier not found
+E:\program\C++\Game\Pong_Game\Pong_Game\renderer.cpp(16,20): error C2065: 'render_state': undeclared identifier
+E:\program\C++\Game\Pong_Game\Pong_Game\renderer.cpp(16,7): error C3861: 'clamp': identifier not found
+E:\program\C++\Game\Pong_Game\Pong_Game\renderer.cpp(19,3): error C2065: 'u32': undeclared identifier
+E:\program\C++\Game\Pong_Game\Pong_Game\renderer.cpp(19,8): error C2065: 'pixel': undeclared identifier
+E:\program\C++\Game\Pong_Game\Pong_Game\renderer.cpp(19,17): error C2065: 'u32': undeclared identifier
+E:\program\C++\Game\Pong_Game\Pong_Game\renderer.cpp(19,21): error C2059: syntax error: ')'
+E:\program\C++\Game\Pong_Game\Pong_Game\renderer.cpp(21,5): error C2065: 'pixel': undeclared identifier
+E:\program\C++\Game\Pong_Game\Pong_Game\renderer.cpp(21,15): error C2065: 'color': undeclared identifier
+E:\program\C++\Game\Pong_Game\Pong_Game\renderer.cpp(26,17): error C2144: syntax error: 'float' should be preceded by ';'
+E:\program\C++\Game\Pong_Game\Pong_Game\renderer.cpp(26,23): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+E:\program\C++\Game\Pong_Game\Pong_Game\renderer.cpp(28,10): error C2144: syntax error: 'void' should be preceded by ';'
+E:\program\C++\Game\Pong_Game\Pong_Game\renderer.cpp(28,15): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+E:\program\C++\Game\Pong_Game\Pong_Game\renderer.cpp(28,1): error C2086: 'int internal': redefinition
+  E:\program\C++\Game\Pong_Game\Pong_Game\renderer.cpp(1,1):
+  see declaration of 'internal'
+  
+E:\program\C++\Game\Pong_Game\Pong_Game\renderer.cpp(28,81): error C2061: syntax error: identifier 'u32'
+E:\program\C++\Game\Pong_Game\Pong_Game\renderer.cpp(30,7): error C2065: 'render_state': undeclared identifier
+E:\program\C++\Game\Pong_Game\Pong_Game\renderer.cpp(31,7): error C2065: 'render_state': undeclared identifier
+E:\program\C++\Game\Pong_Game\Pong_Game\renderer.cpp(32,17): error C2065: 'render_state': undeclared identifier
+E:\program\C++\Game\Pong_Game\Pong_Game\renderer.cpp(33,17): error C2065: 'render_state': undeclared identifier
+E:\program\C++\Game\Pong_Game\Pong_Game\renderer.cpp(35,7): error C2065: 'render_state': undeclared identifier
+E:\program\C++\Game\Pong_Game\Pong_Game\renderer.cpp(36,7): error C2065: 'render_state': undeclared identifier
+E:\program\C++\Game\Pong_Game\Pong_Game\renderer.cpp(39,9): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+E:\program\C++\Game\Pong_Game\Pong_Game\renderer.cpp(40,9): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+E:\program\C++\Game\Pong_Game\Pong_Game\renderer.cpp(41,9): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+E:\program\C++\Game\Pong_Game\Pong_Game\renderer.cpp(42,9): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+E:\program\C++\Game\Pong_Game\Pong_Game\renderer.cpp(44,38): error C2065: 'color': undeclared identifier
+E:\program\C++\Game\Pong_Game\Pong_Game\renderer.cpp(273,10): error C2144: syntax error: 'void' should be preceded by ';'
+E:\program\C++\Game\Pong_Game\Pong_Game\renderer.cpp(273,15): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+E:\program\C++\Game\Pong_Game\Pong_Game\renderer.cpp(273,1): error C2086: 'int internal': redefinition
+  E:\program\C++\Game\Pong_Game\Pong_Game\renderer.cpp(1,1):
+  see declaration of 'internal'
+  
+E:\program\C++\Game\Pong_Game\Pong_Game\renderer.cpp(273,73): error C2061: syntax error: identifier 'u32'
+E:\program\C++\Game\Pong_Game\Pong_Game\renderer.cpp(289,45): error C2065: 'color': undeclared identifier
+E:\program\C++\Game\Pong_Game\Pong_Game\renderer.cpp(305,10): error C2144: syntax error: 'void' should be preceded by ';'
+E:\program\C++\Game\Pong_Game\Pong_Game\renderer.cpp(305,15): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+E:\program\C++\Game\Pong_Game\Pong_Game\renderer.cpp(305,1): error C2086: 'int internal': redefinition
+  E:\program\C++\Game\Pong_Game\Pong_Game\renderer.cpp(1,1):
+  see declaration of 'internal'
+  
+E:\program\C++\Game\Pong_Game\Pong_Game\renderer.cpp(305,69): error C2061: syntax error: identifier 'u32'
+E:\program\C++\Game\Pong_Game\Pong_Game\renderer.cpp(318,52): error C2065: 'color': undeclared identifier
+E:\program\C++\Game\Pong_Game\Pong_Game\renderer.cpp(319,52): error C2065: 'color': undeclared identifier
+E:\program\C++\Game\Pong_Game\Pong_Game\renderer.cpp(321,56): error C2065: 'color': undeclared identifier
+E:\program\C++\Game\Pong_Game\Pong_Game\renderer.cpp(322,56): error C2065: 'color': undeclared identifier
+E:\program\C++\Game\Pong_Game\Pong_Game\renderer.cpp(327,52): error C2065: 'color': undeclared identifier
+E:\program\C++\Game\Pong_Game\Pong_Game\renderer.cpp(332,58): error C2065: 'color': undeclared identifier
+E:\program\C++\Game\Pong_Game\Pong_Game\renderer.cpp(333,45): error C2065: 'color': undeclared identifier
+E:\program\C++\Game\Pong_Game\Pong_Game\renderer.cpp(334,58): error C2065: 'color': undeclared identifier
+E:\program\C++\Game\Pong_Game\Pong_Game\renderer.cpp(335,57): error C2065: 'color': undeclared identifier
+E:\program\C++\Game\Pong_Game\Pong_Game\renderer.cpp(336,57): error C2065: 'color': undeclared identifier
+E:\program\C++\Game\Pong_Game\Pong_Game\renderer.cpp(341,63): error C2065: 'color': undeclared identifier
+E:\program\C++\Game\Pong_Game\Pong_Game\renderer.cpp(342,50): error C2065: 'color': undeclared identifier
+E:\program\C++\Game\Pong_Game\Pong_Game\renderer.cpp(343,63): error C2065: 'color': undeclared identifier
+E:\program\C++\Game\Pong_Game\Pong_Game\renderer.cpp(344,52): error C2065: 'color': undeclared identifier
+E:\program\C++\Game\Pong_Game\Pong_Game\renderer.cpp(349,52): error C2065: 'color': undeclared identifier
+E:\program\C++\Game\Pong_Game\Pong_Game\renderer.cpp(350,59): error C2065: 'color': undeclared identifier
+E:\program\C++\Game\Pong_Game\Pong_Game\renderer.cpp(351,43): error C2065: 'color': undeclared identifier
+E:\program\C++\Game\Pong_Game\Pong_Game\renderer.cpp(356,58): error C2065: 'color': undeclared identifier
+E:\program\C++\Game\Pong_Game\Pong_Game\renderer.cpp(357,45): error C2065: 'color': undeclared identifier
+E:\program\C++\Game\Pong_Game\Pong_Game\renderer.cpp(358,58): error C2065: 'color': undeclared identifier
+E:\program\C++\Game\Pong_Game\Pong_Game\renderer.cpp(359,57): error C2065: 'color': undeclared identifier
+E:\program\C++\Game\Pong_Game\Pong_Game\renderer.cpp(360,57): error C2065: 'color': undeclared identifier
+E:\program\C++\Game\Pong_Game\Pong_Game\renderer.cpp(365,63): error C2065: 'color': undeclared identifier
+E:\program\C++\Game\Pong_Game\Pong_Game\renderer.cpp(366,50): error C2065: 'color': undeclared identifier
+E:\program\C++\Game\Pong_Game\Pong_Game\renderer.cpp(367,63): error C2065: 'color': undeclared identifier
+E:\program\C++\Game\Pong_Game\Pong_Game\renderer.cpp(368,52): error C2065: 'color': undeclared identifier
+E:\program\C++\Game\Pong_Game\Pong_Game\renderer.cpp(369,57): error C2065: 'color': undeclared identifier
+E:\program\C++\Game\Pong_Game\Pong_Game\renderer.cpp(374,52): error C2065: 'color': undeclared identifier
+E:\program\C++\Game\Pong_Game\Pong_Game\renderer.cpp(375,63): error C2065: 'color': undeclared identifier
+E:\program\C++\Game\Pong_Game\Pong_Game\renderer.cpp(380,52): error C2065: 'color': undeclared identifier
+E:\program\C++\Game\Pong_Game\Pong_Game\renderer.cpp(381,52): error C2065: 'color': undeclared identifier
+E:\program\C++\Game\Pong_Game\Pong_Game\renderer.cpp(382,56): error C2065: 'color': undeclared identifier
+E:\program\C++\Game\Pong_Game\Pong_Game\renderer.cpp(383,56): error C2065: 'color': undeclared identifier
+E:\program\C++\Game\Pong_Game\Pong_Game\renderer.cpp(384,43): error C2065: 'color': undeclared identifier
+E:\program\C++\Game\Pong_Game\Pong_Game\renderer.cpp(389,63): error C2065: 'color': undeclared identifier
+E:\program\C++\Game\Pong_Game\Pong_Game\renderer.cpp(390,50): error C2065: 'color': undeclared identifier
+E:\program\C++\Game\Pong_Game\Pong_Game\renderer.cpp(391,63): error C2065: 'color': undeclared identifier
+E:\program\C++\Game\Pong_Game\Pong_Game\renderer.cpp(392,52): error C2065: 'color': undeclared identifier
+E:\program\C++\Game\Pong_Game\Pong_Game\renderer.cpp(393,57): error C2065: 'color': undeclared identifier
+  utils.cpp
+  win32_platform.cpp
+E:\program\C++\Game\Pong_Game\Pong_Game\renderer.cpp(39,9): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'win32_platform.cpp')
+  
+E:\program\C++\Game\Pong_Game\Pong_Game\renderer.cpp(40,9): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'win32_platform.cpp')
+  
+E:\program\C++\Game\Pong_Game\Pong_Game\renderer.cpp(41,9): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'win32_platform.cpp')
+  
+E:\program\C++\Game\Pong_Game\Pong_Game\renderer.cpp(42,9): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'win32_platform.cpp')
+  
+E:\program\C++\Game\Pong_Game\Pong_Game\win32_platform.cpp(61,31): error C2440: '=': cannot convert from 'const char [18]' to 'LPCWSTR'
+  E:\program\C++\Game\Pong_Game\Pong_Game\win32_platform.cpp(61,31):
+  Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+  
+E:\program\C++\Game\Pong_Game\Pong_Game\win32_platform.cpp(68,16): error C2664: 'HWND CreateWindowExW(DWORD,LPCWSTR,LPCWSTR,DWORD,int,int,int,int,HWND,HMENU,HINSTANCE,LPVOID)': cannot convert argument 3 from 'const char [10]' to 'LPCWSTR'
+  E:\program\C++\Game\Pong_Game\Pong_Game\win32_platform.cpp(68,16):
+  Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winuser.h(4437,1):
+  see declaration of 'CreateWindowExW'
+  E:\program\C++\Game\Pong_Game\Pong_Game\win32_platform.cpp(68,16):
+  while trying to match the argument list '(long, LPCWSTR, const char [10], long, int, int, int, int, int, int, HINSTANCE, int)'
+  
